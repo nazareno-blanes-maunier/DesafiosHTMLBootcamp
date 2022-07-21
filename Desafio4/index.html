@@ -6,23 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilos.css">
+
     <title>Desafío 4 - Ejercicio 1</title>
 </head>
 
 <body>
     <h1>Iniciar Sesión</h1>
     <div>
-    <form action=""><input type="text" placeholder="Introduzca el nombre de usuario">
-        <input name="pass" required type="password" placeholder="Introduzca la contraseña">
-        
-        <button type="submit">Ver qué me contesta PHP</button>
+        <form action="./PHP/codigo.php" method="post">
+            <label> Nombre: <br>
+            </label> <input name="nombre" type="text" placeholder="Introduzca el nombre de usuario">
+           <label>Contraseña: </label> <input name="pass" required type="password" placeholder="Introduzca la contraseña">
+
+            <button type="submit">Ver qué me contesta PHP</button>
 
         </form>
     </div>
-        <p>¿No puede inicar sesión?</p>
-        <p>
-            Regístrese para crear una cuenta nueva
-        </p>
+    <p>¿No puede inicar sesión?</p>
+    <p>
+        Regístrese para crear una cuenta nueva
+    </p>
     </form>
 </body>
 
