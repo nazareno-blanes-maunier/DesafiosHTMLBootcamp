@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="./css/estilos.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+</head>
+
+<body>
+    <nav><img id="logow" src="./img/logos-WH.png" alt="">
+        <a href="index.html">HOME</a> <a href="contacto.html" class="on">CONTACTO</a>
+    </nav>
+
+    <div>
+        <h2>¿Querés que nos contactemos con vos?</h20>
+            <form action="codigo.php" method="post">
+                <p>Dejanos tu consulta</p>
+                <label for="Nombre">Nombre completo: <span>*</span></label>
+                <input type="text" name="" id="Nombre" placeholder="Nombre Completo">
+                <label for="email">Email <span>*</span></label>
+                <input type="email" name="" id="email" placeholder="Email">
+                <label for="comentario" id="comentario">Comentario</label>
+                <textarea name="comentario" id="comentario" placeholder="Comentarios"></textarea>
+
+<input  class="botones" id="reset" value="Resetear" type="reset"><input class="botones" value="Enviar" id="enviar" type="submit">
+            </form>
+
+        </div>
+</body>
+
+</html>
