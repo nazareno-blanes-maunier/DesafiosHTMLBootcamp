@@ -3,10 +3,11 @@
 body{font-family: 'Roboto', sans-serif;}
 h1{font-family: 'Roboto Slab', serif; font-size: 96px; color: #0a2ff1; font-weight: 700; }
 h3{font-weight: 400; color:#04146c; font-size: 34px;}
-a{font-size: 20px; color: #04146c; font-weight: 400; text-decoration: none; margin-right: 10px;}
+a{font-size: 20px; color: #04146c; font-weight: 400; text-decoration: none; margin-right: 50px;}
 .on{ font-weight: 700;}
 #logow{ width: 15%; margin-left: 10px; margin-right: 30px;}
 img{width: 100%}4
 nav, header{width: 100%;}
 header{text-align: center;}
 nav{ display: flex; align-items: center;}
+
